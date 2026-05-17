@@ -176,9 +176,7 @@ papers:
 
 ## License
 
-- **Tutuorial materials** are licensed under
-  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — you are free to
-  share and adapt with attribution.
+- **Tutuorial materials** are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), for non-commercial/academic use only, with attribution.
 - **Evaluation data**: derived from the Reeve Foundation Trilingual /
   Multilingual Corpus, used with permission for research and educational
   purposes. Please consult the per-pair `README.md` files for specific
