@@ -100,7 +100,7 @@ Entirely optional:
 
 - Python 3.10+ if you want to run the optional `scripts/python/` example. An LLM assistant (Claude, GPT, Gemini) can write and adapt this script for you in seconds, or write other simple scripts — you do not need to be a programmer.
 
-The tutorial materials were prepared with **MATEO** version 1.6:
+The tutorial materials were prepared with **MATEO** version 1.8.4:
 
 **Vanroy, Bram, Arda Tezcan, and Lieve Macken. 2023. [MATEO: MAchine Translation Evaluation Online](https://aclanthology.org/2023.eamt-1.52/).** In *Proceedings of the 24th Annual Conference of the European Association for Machine Translation*, Tampere, Finland: European Association for Machine Translation, 499–500.
 
