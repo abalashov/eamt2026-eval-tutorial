@@ -1,0 +1,217 @@
+# Translation Evaluation Tools for Everyone
+
+**A Hands-On Tutorial for Freelance Translators and Smaller LSPs**
+
+EAMT 2026 · Yuri Balashov · University of Georgia, USA
+
+---
+
+This repository accompanies the half-day tutorial *Translation Evaluation Tools
+for Everyone* presented at EAMT 2026.
+Everything you need to follow along — and to keep practicing afterward — is here:
+the slide deck, four pre-alignedevaluation sets in different language pairs, worked
+examples in Excel and Python, a reading list, and short scripts you can adapt for your own projects.
+
+The tutorial is aimed at practicing translators and small language-service
+providers. No programming experience is assumed; familiarity with Excel and a
+modern web browser is enough. Sections that go beyond that — primarily the
+optional Python supplements — are clearly flagged.
+
+---
+
+## What you'll learn
+
+By the end of the session you should be able to:
+
+1. Choose appropriate metrics (BLEU, chrF, TER, COMET, BLEURT, BERTScore) for a
+   given evaluation task and explain their strengths and limitations.
+2. Run a complete evaluation on your own data using the **MATEO** browser
+   toolkit, with no installation and no GPU.
+3. Read MATEO's output — bar charts, score tables with confidence intervals,
+   and the sentence-level Excel export — with a critical eye.
+4. Apply a small but rigorous statistical toolkit (mean, variance, standard
+   deviation, confidence intervals, p-values, and Pearson/Spearman/Kendall
+   correlation) to interpret your results.
+5. Pair automatic scores with your own human grades (if available) to produce
+   defensible quality assessments for your clients.
+
+---
+
+## Tutorial structure
+
+The session is organized in four parts plus a final Q&A:
+
+| Part | Title | Length |
+|---|---|---|
+| 1 | Introduction to Translation Evaluation Methods | 45 min |
+| 2 | Hands-On with MATEO | 45 min |
+| ☕ | Coffee break | 30 min |
+| 3 | Interpreting Evaluation Results | 30 min |
+| 4 | Lightweight Statistical Analysis | 45 min |
+| Q&A | Final wrap-up | 10–15 min |
+
+
+---
+
+## Repository layout
+
+```
+.
+├── README.md                                  ← this file
+├── bibliography.bib                           ← reading list / citations
+├── slides/
+│   └── Translation-Evaluation-Tools-for-Everyone.pdf
+├── evaluation_sets/                           ← four parallel test sets
+│   ├── en-de/
+│   ├── en-ru/
+│   ├── en-ja/
+│   └── en-zh/
+├── handouts/                                  ← printable cheat sheets
+├── worked_examples/                           ← Excel + sentence-level COMET
+├── scripts/
+│   ├── python/                                ← optional helpers (bootstrap CIs, correlations)
+│   └── excel_templates/                       ← .xlsx templates with pre-filled formulas
+└── figures/                                   ← extra charts and diagrams from the deck
+```
+
+Each `evaluation_sets/<pair>/` directory contains:
+
+- `source.txt` — the English source, one sentence per line, UTF-8.
+- `reference.txt` — the professional human translation in the target language.
+- `system_1.txt` … `system_4.txt` — outputs from commercial NMT engines and
+  open-weight LLMs.
+- `README.md` — the source of the data, line counts, and any
+  language-specific notes (e.g., remember to set the BLEU tokenizer to
+  `ja-mecab` for Japanese or `zh` for Chinese; and TER settings to `asian_support` and `norm`).
+
+All files are line-aligned: line *N* of every file corresponds to the same
+segment.
+
+---
+
+## Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, Edge — anything from the
+  last two years is fine).
+- A working installation of **Excel** (2019 or newer) or a compatible
+  alternative (LibreOffice Calc, Google Sheets, Apple Numbers).
+- The four evaluation-set zip files from this repository, downloaded ahead of
+  time.
+
+Optional but recommended:
+
+- A text editor with explicit UTF-8 support (Notepad++, Sublime, VS Code).
+- Python 3.10+ if you want to run the optional `scripts/python/` examples.
+  An LLM assistant (Claude, GPT, Gemini) can write and adapt these scripts
+  for you in seconds — you do not need to be a programmer.
+
+The tutorial materials were prepared with **MATEO** version 1.6 (Vanroy,
+Tezcan & Macken 2023). MATEO is hosted by CLARIN B at the Instituut voor de
+Nederlandse Taal:
+
+- Primary: <https://mateo.ivdnt.org>
+- Mirror:  <https://huggingface.co/spaces/BramVanroy/mateo-demo>
+- Source: <https://github.com/BramVanroy/mateo-demo>
+
+The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in
+this repository are sized to fit comfortably within that limit. For larger
+documents, install MATEO locally via Docker or `pip install mateo-st`.
+
+---
+
+## Quick start (during the tutorial)
+
+1. Clone or download this repository.
+2. Pick the language pair you want to work on and download
+   `evaluation_sets/<pair>/`.
+3. Open <https://mateo.ivdnt.org> in your browser, navigate to
+   **Evaluate**.
+4. Upload `reference.txt`, then `system_1.txt` through `system_N.txt`. Upload
+   `source.txt` as well — COMET-22 will use it.
+5. Tick **BLEU**, **chrF**, **TER**, **COMET-22**.
+6. For Japanese: in the BLEU options expand *tokenize* and select
+   `ja-mecab`. For Chinese: select `zh`.
+7. Click **Evaluate MT**, walk away for the coffee break, return to results.
+8. Download the bar charts (PNG), the score table (Excel), and the
+   sentence-level COMET file (Excel) — we'll work through them together in
+   Part 3.
+
+---
+
+## Worked examples
+
+`worked_examples/` contains a complete end-to-end illustration for one of the
+language pairs:
+
+- The raw MATEO outputs (`bar_chart_*.png`, `score_table.xlsx`,
+  `sentence_level_comet.xlsx`).
+- An annotated Excel workbook with confidence-interval calculations,
+  Pearson/Spearman correlations, and a small visualization of system × human
+  agreement.
+- A short Python script (`bootstrap_ci.py`) that reproduces the confidence
+  intervals from the sentence-level data.
+
+These are intended as templates: replace the numbers with your own and the
+formulas remain valid.
+
+---
+
+## Citing this tutorial
+
+If you use the materials, the evaluation sets, or the analysis pipeline,
+please cite:
+
+> Balashov, Y. (2026). *Translation Evaluation Tools for Everyone: A
+> Hands-On Tutorial for Freelance Translators and Smaller LSPs.*
+> Tutorial at the 26th Annual Conference of the European Association for
+> Machine Translation (EAMT 2026). University of Georgia.
+
+A BibTeX entry is included in `bibliography.bib`.
+
+The evaluation data is derived from the **Reeve Foundation Multilingual
+Corpus (RFMC)**. If you use it in published work, please cite the corresponding
+papers:
+
+Balashov, Yuri, Alex Balashov, and Shiho Fukuda Koski. 2025. [Translation Analytics for Freelancers: I. Introduction, Data Preparation, Baseline Evaluations](https://aclanthology.org/2025.mtsummit-1.42/). In *Proceedings of Machine Translation Summit XX, Volume 1*, Geneva, Switzerland: European Association for Machine Translation, 538–65
+
+Balashov, Yuri, Rex VanHorn, Austin Downes, and Mingxi Xu. 2026. Translation Analytics for Freelancers: II. Benchmarking Local LLMs for Confidential Translation Workflows. In *Proceedings of EAMT 2026*, forthcoming.
+---
+
+## License
+
+- **Code, scripts, and tutorial materials** (this README, the slide deck,
+  the Python helpers, the Excel templates): licensed under
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — you are free to
+  share and adapt with attribution.
+- **Evaluation data**: derived from the Reeve Foundation Trilingual /
+  Multilingual Corpus, used with permission for research and educational
+  purposes. Please consult the per-pair `README.md` files for specific
+  redistribution terms.
+- The MATEO toolkit itself is licensed independently (Apache-2.0); see
+  <https://github.com/BramVanroy/mateo-demo>.
+
+---
+
+## Acknowledgments
+
+This tutorial draws on research supported by the U.S. National Science
+Foundation under Award **SES-2336713**. Any opinions, findings, and
+conclusions expressed here are those of the author and do not necessarily
+reflect the views of the National Science Foundation.
+
+Thanks to the Christopher & Dana Reeve Foundation for permission to use
+multilingual professional translations from their published materials; to
+Bram Vanroy and the LT3 group at Ghent University for building and
+maintaining MATEO; to Rex VanHorn for collaboration on the underlying analytics work;
+and to Felix do Carmo and Diptesh Kanojia, whose AMTA-2024 tutorial
+*Editing Distance Metrics for Machine Translation Evaluation* was a model
+for how to teach evaluation methods to working translators.
+
+---
+
+## Contact
+
+**Yuri Balashov**
+Department of Philosophy & Institute for Artificial Intelligence
+University of Georgia, Athens, GA, USA
+<yuri@uga.edu> · <https://yuribalashov.com>
