@@ -111,7 +111,9 @@ MATEO is hosted by CLARIN B at the Instituut voor de Nederlandse Taal:
 - Mirror:  <https://huggingface.co/spaces/BramVanroy/mateo-demo>
 - Source: <https://github.com/BramVanroy/mateo-demo>
 
-The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in this repository are sized to fit comfortably within that limit. **Unfortunately, "on May 5, 2026, the [Institute for the Dutch Language (INT)](https://ivdnt.org/) became the target of a hack... It is currently unclear when the websites and services will be back online" (from the May 13,  2026 update).**  
+The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in this repository are sized to fit comfortably within that limit. **Unfortunately, "on May 5, 2026, the [Institute for the Dutch Language (INT)](https://ivdnt.org/) became the target of a hack... It is currently unclear when the websites and services will be back online" (from the May 13,  2026 update).** Accordingly: unless this issue is resolved soon, the HuggingFace mirror space is the only available option. You can clone this space on your own (free) HuggingFace account by clicking.
+
+**Due to these unfortunate circumstances, and to the likely memory limitations set by HuggingFace, we strongly recommend that you perform the Quick start steps (below) in advance of the tutorial and download all the Excel and PNG outputs on your laptop. Doing this during the tutorial, even assuming good Internet connection, may be impractical. And on-site debugging would not be possible.**
 
 ---
 
