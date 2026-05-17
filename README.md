@@ -104,7 +104,7 @@ Entirely optional:
 
 The tutorial materials were prepared with **MATEO** version 1.6:
 Vanroy, Bram, Arda Tezcan, and Lieve Macken. 2023.
-[MATEO: MAchine Translation Evaluation Online]{https://aclanthology.org/2023.eamt-1.52/}.
+[MATEO: MAchine Translation Evaluation Online](https://aclanthology.org/2023.eamt-1.52/).
 In Proceedings of the 24th Annual Conference of the European Association for Machine Translation, Tampere, Finland: European Association for Machine Translation, 499–500.
 
 MATEO is hosted by CLARIN B at the Instituut voor de Nederlandse Taal:
