@@ -176,8 +176,7 @@ papers:
 
 ## License
 
-- **Code, scripts, and tutorial materials** (this README, the slide deck,
-  the Python helpers, the Excel templates): licensed under
+- **Tutuorial materials** are licensed under
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — you are free to
   share and adapt with attribution.
 - **Evaluation data**: derived from the Reeve Foundation Trilingual /
