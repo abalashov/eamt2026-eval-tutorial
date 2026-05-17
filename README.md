@@ -102,17 +102,16 @@ Entirely optional:
 
 - Python 3.10+ if you want to run the optional `scripts/python/` examples. An LLM assistant (Claude, GPT, Gemini) can write and adapt these scripts for you in seconds — you do not need to be a programmer.
 
-The tutorial materials were prepared with **MATEO** version 1.6:\
+The tutorial materials were prepared with **MATEO** version 1.6:
 
-**Vanroy, Bram, Arda Tezcan, and Lieve Macken. 2023. [MATEO: MAchine Translation Evaluation Online](https://aclanthology.org/2023.eamt-1.52/).**\
-In *Proceedings of the 24th Annual Conference of the European Association for Machine Translation*, Tampere, Finland: European Association for Machine Translation, 499–500.
+**Vanroy, Bram, Arda Tezcan, and Lieve Macken. 2023. [MATEO: MAchine Translation Evaluation Online](https://aclanthology.org/2023.eamt-1.52/).** In *Proceedings of the 24th Annual Conference of the European Association for Machine Translation*, Tampere, Finland: European Association for Machine Translation, 499–500.
 
 MATEO is hosted by CLARIN B at the Instituut voor de Nederlandse Taal:
 - Primary: <https://mateo.ivdnt.org>
 - Mirror:  <https://huggingface.co/spaces/BramVanroy/mateo-demo>
 - Source: <https://github.com/BramVanroy/mateo-demo>
 
-The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in this repository are sized to fit comfortably within that limit. Unfortunately, "on May 5, 2026, the Institute for the Dutch Language (INT) became the target of a hack... It is currently unclear when the websites and services will be back online" (from the May 13,  2026 update).  
+The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in this repository are sized to fit comfortably within that limit. Unfortunately, "on May 5, 2026, the [Institute for the Dutch Language (INT)](https://ivdnt.org/) became the target of a hack... It is currently unclear when the websites and services will be back online" (from the May 13,  2026 update).  
 
 ---
 
