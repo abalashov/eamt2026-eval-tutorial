@@ -96,9 +96,6 @@ segment.
 - A working installation of **Excel** 2019 or newer: compatible alternatives (LibreOffice Calc, Google Sheets, Apple Numbers) may work too; but you'd need to figure out the details on your own.
 - The four evaluation-set zip files from this repository, downloaded ahead of
   time.
-- A text editor with explicit UTF-8 support (Notepad++, Sublime, VS Code)
-
-
 - A text editor with explicit UTF-8 support (Notepad++ for Windows, Sublime or a similar app for Mac OS).
 
 Entirely optional:
