@@ -157,10 +157,10 @@ formulas remain valid.
 If you use the materials, the evaluation sets, or the analysis pipeline,
 please cite:
 
-> Balashov, Y. (2026). *Translation Evaluation Tools for Everyone: A
-> Hands-On Tutorial for Freelance Translators and Smaller LSPs.*
+> Balashov, Y. (2026). [*Translation Evaluation Tools for Everyone: A
+> Hands-On Tutorial for Freelance Translators and Smaller LSPs.*](https://github.com/YuriBalashov/eamt2026-eval-tutorial)
 > Tutorial at the 26th Annual Conference of the European Association for
-> Machine Translation (EAMT 2026). University of Georgia.
+> Machine Translation (EAMT 2026).
 
 A BibTeX entry is included in `bibliography.bib`.
 
