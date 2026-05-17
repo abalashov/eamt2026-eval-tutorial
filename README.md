@@ -170,9 +170,10 @@ The evaluation data is derived from the **Reeve Foundation Multilingual
 Corpus (RFMC)**. If you use it in published work, please cite the corresponding
 papers:
 
-Balashov, Yuri, Alex Balashov, and Shiho Fukuda Koski. 2025. [Translation Analytics for Freelancers: I. Introduction, Data Preparation, Baseline Evaluations](https://aclanthology.org/2025.mtsummit-1.42/). In *Proceedings of Machine Translation Summit XX, Volume 1*, Geneva, Switzerland: European Association for Machine Translation, 538–65
+> Balashov, Yuri, Alex Balashov, and Shiho Fukuda Koski. 2025. [Translation Analytics for Freelancers: I. Introduction, Data Preparation, Baseline Evaluations](https://aclanthology.org/2025.mtsummit-1.42/).
+> In *Proceedings of Machine Translation Summit XX, Volume 1*, Geneva, Switzerland: European Association for Machine Translation, 538–65
 
-Balashov, Yuri, Rex VanHorn, Austin Downes, and Mingxi Xu. 2026. Translation Analytics for Freelancers: II. Benchmarking Local LLMs for Confidential Translation Workflows. In *Proceedings of EAMT 2026*, forthcoming.
+> Balashov, Yuri, Rex VanHorn, Austin Downes, and Mingxi Xu. 2026. Translation Analytics for Freelancers: II. Benchmarking Local LLMs for Confidential Translation Workflows. In *Proceedings of EAMT 2026*, forthcoming.
 
 ---
 
