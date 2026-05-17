@@ -113,8 +113,7 @@ MATEO is hosted by CLARIN B at the Instituut voor de Nederlandse Taal:
 - Source: <https://github.com/BramVanroy/mateo-demo>
 
 The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in
-this repository are sized to fit comfortably within that limit. For larger
-documents, install MATEO locally via Docker or `pip install mateo-st`.
+this repository are sized to fit comfortably within that limit.
 
 ---
 
