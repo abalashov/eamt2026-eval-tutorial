@@ -130,9 +130,8 @@ The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in thi
 6. For Japanese: in the BLEU options expand *tokenize* and select `ja-mecab`. For Chinese: select `zh`.
 7. For Japanese and Chinese: in the TER options, select `normalized` and `asian_support`.
 8. Click **Evaluate MT**, hold your breath...
-9. Download the bar charts (PNG), the score table (Excel), and the
-   sentence-level COMET file (Excel) — we'll work through them together in
-   Part 3.
+9. Download the bar charts (PNG), the score tables (`mateo-evaluation.xlsx` and `mateo-evaluation-ci.xlsx`), and the
+   sentence-level COMET file (`mateo-sentences.xlsx`) — we'll work through them together in Part 3.
 
 ---
 
