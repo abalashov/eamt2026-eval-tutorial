@@ -6,11 +6,7 @@ EAMT 2026 · Yuri Balashov · University of Georgia, USA
 
 ---
 
-This repository accompanies the half-day tutorial *Translation Evaluation Tools
-for Everyone* presented at EAMT 2026.
-Everything you need to follow along — and to keep practicing afterward — is here:
-the slide deck, four pre-alignedevaluation sets in different language pairs, worked
-examples in Excel and Python, a reading list, and short scripts you can adapt for your own projects.
+This repository accompanies the half-day tutorial *Translation Evaluation Tools for Everyone* to be presented at EAMT 2026. Everything you need to follow along — and to keep practicing afterward — is here: the slide deck, four pre-alignedevaluation sets in different language pairs, worked examples in Excel and Python, a reading list, and short scripts you can adapt for your own projects.
 
 The tutorial is aimed at practicing translators and small language-service
 providers. No programming experience is assumed; familiarity with Excel and a
