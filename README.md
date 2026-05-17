@@ -103,7 +103,9 @@ Entirely optional:
 - Python 3.10+ if you want to run the optional `scripts/python/` examples. An LLM assistant (Claude, GPT, Gemini) can write and adapt these scripts for you in seconds — you do not need to be a programmer.
 
 The tutorial materials were prepared with **MATEO** version 1.6:
-Vanroy, Bram, Arda Tezcan, and Lieve Macken. 2023. [MATEO: MAchine Translation Evaluation Online]{ttps://aclanthology.org/2023.eamt-1.52/}. In Proceedings of the 24th Annual Conference of the European Association for Machine Translation, Tampere, Finland: European Association for Machine Translation, 499–500.
+Vanroy, Bram, Arda Tezcan, and Lieve Macken. 2023.
+[MATEO: MAchine Translation Evaluation Online]{https://aclanthology.org/2023.eamt-1.52/}.
+In Proceedings of the 24th Annual Conference of the European Association for Machine Translation, Tampere, Finland: European Association for Machine Translation, 499–500.
 
 MATEO is hosted by CLARIN B at the Instituut voor de Nederlandse Taal:
 - Primary: <https://mateo.ivdnt.org>
