@@ -6,7 +6,11 @@ EAMT 2026 · Yuri Balashov · University of Georgia, USA
 
 ---
 
-This repository accompanies the half-day tutorial *Translation Evaluation Tools for Everyone* to be presented at EAMT 2026. Everything you need to follow along — and to keep practicing afterward — is here: the slide deck, four pre-aligned evaluation sets in different language pairs, worked examples in Excel and Python, a reading list, and short scripts you can adapt for your own projects.
+This repository accompanies the half-day tutorial *Translation Evaluation Tools
+for Everyone* to be presented at EAMT 2026.
+Everything you need to follow along — and to keep practicing afterward — is here:
+the slide deck, four pre-alignedevaluation sets in different language pairs, worked
+examples in Excel and Python, a reading list, and short scripts you can adapt for your own projects.
 
 The tutorial is aimed at practicing translators and small language-service
 providers. No programming experience is assumed; familiarity with Excel and a
@@ -89,17 +93,17 @@ segment.
 
 - A modern web browser (Chrome, Firefox, Safari, Edge — anything from the
   last two years is fine).
-- A working installation of **Excel** (2019 or newer) or a compatible
-  alternative (LibreOffice Calc, Google Sheets, Apple Numbers).
+- A working installation of **Excel** 2019 or newer: compatible alternatives (LibreOffice Calc, Google Sheets, Apple Numbers) may work too; but you'd need to figure out the details on your own.
 - The four evaluation-set zip files from this repository, downloaded ahead of
   time.
+- A text editor with explicit UTF-8 support (Notepad++, Sublime, VS Code)
 
-Optional but recommended:
 
-- A text editor with explicit UTF-8 support (Notepad++, Sublime, VS Code).
-- Python 3.10+ if you want to run the optional `scripts/python/` examples.
-  An LLM assistant (Claude, GPT, Gemini) can write and adapt these scripts
-  for you in seconds — you do not need to be a programmer.
+- A text editor with explicit UTF-8 support (Notepad++ for Windows, Sublime or a similar app for Mac OS).
+
+Entirely optional:
+
+- Python 3.10+ if you want to run the optional `scripts/python/` examples. An LLM assistant (Claude, GPT, Gemini) can write and adapt these scripts for you in seconds — you do not need to be a programmer.
 
 The tutorial materials were prepared with **MATEO** version 1.6 (Vanroy,
 Tezcan & Macken 2023). MATEO is hosted by CLARIN B at the Instituut voor de
