@@ -67,6 +67,7 @@ The session is organized in four parts plus a final Q&A:
 .
 ├── README.md                                  ← this file
 ├── bibliography.bib                           ← reading list / citations
+├── bibliography.pdf                           ← reading list / citations
 ├── slides/
 │   └── Translation-Evaluation-Tools-for-Everyone.pdf
 ├── evaluation_sets/                           ← four parallel test sets
@@ -74,11 +75,9 @@ The session is organized in four parts plus a final Q&A:
 │   ├── en-ru/
 │   ├── en-ja/
 │   └── en-zh/
-├── handouts/                                  ← printable cheat sheets
-├── worked_examples/                           ← Excel + sentence-level COMET
-├── scripts/
-│   ├── python/                                ← optional helpers (bootstrap CIs, correlations)
-│   └── excel_templates/                       ← .xlsx templates with pre-filled formulas
+├── worked_examples with Excel calculations/   ← 1143_en-{de,ru,ja,zh} from RFMC; 300_en-{de,ru,ja,zh} outputs from MATEO
+├── sample script/
+│   └── python/                                ← bootstrap CIs
 └── figures/                                   ← extra charts and diagrams from the deck
 ```
 
@@ -107,7 +106,7 @@ segment.
 
 Entirely optional:
 
-- Python 3.10+ if you want to run the optional `scripts/python/` example. An LLM assistant (Claude, GPT, Gemini) can write and adapt this script for you in seconds, or write other simple scripts — you do not need to be a programmer.
+- Python 3.10+ if you want to run the optional `sample_script/python/` example. An LLM assistant (Claude, GPT, Gemini) can write and adapt this script for you in seconds, or write other simple scripts — you do not need to be a programmer.
 
 The tutorial materials were prepared with **MATEO** version 1.8.4:
 
