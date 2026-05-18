@@ -172,8 +172,7 @@ please cite:
 
 A BibTeX entry is included in `bibliography.bib`.
 
-The evaluation data is derived from the **Reeve Foundation Multilingual
-Corpus (RFMC)**. If you use it in published work, please cite the corresponding
+The evaluation data is derived from the [**Reeve Foundation Multilingual Corpus (RFMC)**](https://github.com/YuriBalashov/reeve-mftc). If you use it in published work, please cite the corresponding
 papers:
 
 > Balashov, Yuri, Alex Balashov, and Shiho Fukuda Koski. 2025. [Translation Analytics for Freelancers: I. Introduction, Data Preparation, Baseline Evaluations](https://aclanthology.org/2025.mtsummit-1.42/).
