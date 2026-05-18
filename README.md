@@ -143,21 +143,27 @@ The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in thi
 
 ## Worked examples
 
-`worked_examples/` contains a complete end-to-end illustration for one of the
-language pairs:
+`worked_examples/` points to four subdirectories of the [Christopher & Dana Reeve Foundation Multilingual Corpus (RFMC)](https://github.com/YuriBalashov/reeve-mftc) used in
+> Balashov, Yuri, Rex VanHorn, Austin Downes, and Mingxi Xu. 2026. Translation Analytics for Freelancers: II. Benchmarking Local LLMs for Confidential Translation Workflows. In *Proceedings of EAMT 2026*, forthcoming.
 
-- The raw MATEO outputs (`bar_chart_*.png`, `score_table.xlsx`,
-  `sentence_level_comet.xlsx`).
-- An annotated Excel workbook with confidence-interval calculations,
-  Pearson/Spearman correlations, and a small visualization of system × human
-  agreement.
-- A short Python script (`bootstrap_ci.py`) that reproduces the confidence
-  intervals from the sentence-level data.
+Each subdirectory contains two files:
+* `1143_en-{de,ru,ja,zh}_aem.xlsx` — Document-level COMET, BLEU, chrF2, and TER scores along with charts and some Excel calculations for 12 translation outputs (9 local LLMs + 3 baselines) for the corresponding language pair.
+* `1143_en-{de,ru,ja,zh}_outputs-cometscores.xlsx` — All translation outputs aligned at the segment level along with their sentence-level COMET-22 scores and Excel calculations of across-system averages, variances, and standard deviations for 1,143 sentences.
+
+These are intended as templates: replace the data  with your own and the formulas remain valid.
+
+---
+
+## Sample script
+
+`sample script/python/` contains a short Python script (`bootstrap_ci.py`) that reproduces the confidence intervals from the sentence-level data in the sample `sentence_level_comet.xlsx`.
 
 These are intended as templates: replace the numbers with your own and the
 formulas remain valid.
 
 ---
+
+
 
 ## Citing this tutorial
 
