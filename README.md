@@ -152,6 +152,8 @@ Each subdirectory contains two files:
 
 These are intended as templates: replace the data  with your own and the formulas remain valid.
 
+`worked_examples/300_en-{de,ru,ja,zh}` are reserved for the MATEO outputs for our evaluation sets. These outputs will be provided shortly before the tutorial as a back-up.
+
 ---
 
 ## Sample script
