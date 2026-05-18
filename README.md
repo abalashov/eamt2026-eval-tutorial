@@ -25,11 +25,6 @@ modern web browser is enough.
 3. **As of May 18, 2026, the main MATEO-hosting site is not operational: "On May 5, 2026, the [Institute for the Dutch Language (INT)](https://ivdnt.org/) became the target of a hack... It is currently unclear when the websites and services will be back online" (from the May 13,  2026 update). Accordingly: unless this issue is resolved soon, the [HuggingFace mirror space](https://huggingface.co/spaces/BramVanroy/mateo-demo) is the only available option. You can use this space directly, or clone it on your own (free) HuggingFace account by clicking [here](https://huggingface.co/spaces/BramVanroy/mateo-demo?duplicate=true). Further details are available on [Bram Vanroy's MATEO GitHub repository](https://github.com/BramVanroy/mateo-demo).**
 4. $\color{red}{\text{Due to these unfortunate circumstances, and to the likely memory limitations set by HuggingFace, we strongly recommend that you perform the Quick start steps (below) in advance of the tutorial and download all the Excel and PNG outputs on your laptop. Doing this during the tutorial, even assuming good Internet connection, may be impractical. On-site debugging would not be possible due to time constraints. In the worst-case scenario, the MATEO evaluation outputs for all four evaluation sets will be provided at the tutorial. While that might deprive you of the opportunity to practice MATEO directly, we will go over some of the outputs in Parts 3 and 4 in any case}} $Due to these unfortunate circumstances, and to the likely memory limitations set by HuggingFace, we strongly recommend that you perform the Quick start steps (below) in advance of the tutorial and download all the Excel and PNG outputs on your laptop. Doing this during the tutorial, even assuming good Internet connection, may be impractical. On-site debugging would not be possible due to time constraints. In the worst-case scenario, the MATEO evaluation outputs for all four evaluation sets will be provided at the tutorial. While that might deprive you of the opportunity to practice MATEO directly, we will go over some of the outputs in Parts 3 and 4 in any case.}}$
 
-
-
-
-
-
 ---
 
 ## What you'll learn
