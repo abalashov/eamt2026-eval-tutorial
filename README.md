@@ -131,8 +131,7 @@ The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in thi
    `evaluation_sets/<pair>/`.
 3. Open <https://mateo.ivdnt.org> or <https://huggingface.co/spaces/BramVanroy/mateo-demo> in your browser, navigate to
    **Evaluate**.
-4. Upload `reference.txt`, then `system_1.txt` through `system_N.txt`. Upload
-   `source.txt` as well — COMET-22 will use it.
+4. Upload `reference.txt`, then `system_1.txt` through `system_4.txt`. Upload `source.txt` as well — COMET-22 will use it.
 5. Tick **BLEU**, **chrF**, **TER**, **COMET-22**.
 6. For Japanese: in the BLEU options expand *tokenize* and select `ja-mecab`. For Chinese: select `zh`.
 7. For Japanese and Chinese: in the TER options, select `normalized` and `asian_support`.
