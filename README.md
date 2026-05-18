@@ -158,9 +158,6 @@ These are intended as templates: replace the data  with your own and the formula
 
 `sample script/python/` contains a short Python script (`bootstrap_ci.py`) that reproduces the confidence intervals from the sentence-level data in the sample `sentence_level_comet.xlsx`.
 
-These are intended as templates: replace the numbers with your own and the
-formulas remain valid.
-
 ---
 
 
