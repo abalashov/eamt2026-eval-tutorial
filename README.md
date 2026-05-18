@@ -18,7 +18,7 @@ modern web browser is enough.
 
 ---
 
-## $\color{red}{\text{This text is red}}$ **IMPORTANT NOTES**
+## $\color{red}{\text{**IMPORTANT NOTES**}}$ **IMPORTANT NOTES**
 
 $\color{red}{\text{This text is red}}$
 
