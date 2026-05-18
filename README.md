@@ -23,6 +23,8 @@ modern web browser is enough.
 **1. May 18, 2026 update: most of the content and the links in this README.md are complete; slides and bibliography may be updated between now and June 15; sample evaluation sets, worked examples, and Excel templates will be posted soon. Please pardon our progress.
 2. You are welcome (and encouraged) to use your own evaluation set of 200-300 sentences, in any domain and language pair, in lieu of the sets in this repository. But please make sure to read the MATEO paper linked below as well as the instructions on the MATEO site. You might also want to check out this brief [freelancer-oriented introduction to MATEO](https://mailchi.mp/slator/tool-box-january-2024#mctoc7) on Slator.**
 
+---
+
 ## What you'll learn
 
 By the end of the session you should be able to:
