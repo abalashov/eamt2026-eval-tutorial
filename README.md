@@ -75,7 +75,12 @@ The session is organized in four parts plus a final Q&A:
 │   ├── en-ru/
 │   ├── en-ja/
 │   └── en-zh/
-├── worked_examples with Excel calculations/   ← 1143_en-{de,ru,ja,zh} from RFMC; 300_en-{de,ru,ja,zh} outputs from MATEO
+├── MATEO_outputs/   ← worst-case scenario outputs from MATEO│
+│   ├── 300_en-de/
+│   ├── 300_en-ru/
+│   ├── 300_en-ja/
+│   └── 300_en-zh/
+├── worked_examples with Excel calculations/   ← 1143_en-{de,ru,ja,zh} from RFMC
 ├── sample script/
 │   └── python/                                ← bootstrap CIs
 └── figures/                                   ← extra charts and diagrams from the deck
