@@ -75,12 +75,12 @@ The session is organized in four parts plus a final Q&A:
 │   ├── en-ru/
 │   ├── en-ja/
 │   └── en-zh/
-├── MATEO_outputs/   ← worst-case scenario outputs from MATEO│
+├── MATEO_outputs/   ← worst-case scenario outputs from MATEO
 │   ├── 300_en-de/
 │   ├── 300_en-ru/
 │   ├── 300_en-ja/
 │   └── 300_en-zh/
-├── worked_examples with Excel calculations/   ← 1143_en-{de,ru,ja,zh} from RFMC
+├── COMET-human-correlations/   ← addendum with excel calculations for 90-100_en-{de,ru,zh}
 ├── sample script/
 │   └── python/                                ← bootstrap CIs
 └── figures/                                   ← extra charts and diagrams from the deck
@@ -143,6 +143,12 @@ The CLARIN instance has a 1 MB upload limit per file. The evaluation sets in thi
 8. Click **Evaluate MT**, hold your breath...
 9. Download the bar charts (PNG), the score tables (`mateo-evaluation.xlsx` and `mateo-evaluation-ci.xlsx`), and the
    sentence-level COMET file (`mateo-sentences.xlsx`) — we'll work through them together in Part 3.
+
+---
+
+## MATEO outputs
+
+The four "worst-case scenario" subdirectories in `MATEO_outputs/` are reserved for the MATEO outputs for our evaluation sets. These outputs will be provided shortly before the tutorial as a back-up for those who encounter any issues with the MATEO web interface, for any reason.
 
 ---
 
