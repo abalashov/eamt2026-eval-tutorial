@@ -152,18 +152,8 @@ The four "worst-case scenario" subdirectories in `MATEO_outputs/` are reserved f
 
 ---
 
-## Worked examples
-
-`worked_examples/` points to four subdirectories of the [Christopher & Dana Reeve Foundation Multilingual Corpus (RFMC)](https://github.com/YuriBalashov/reeve-mftc) used in
-> Balashov, Yuri, Rex VanHorn, Austin Downes, and Mingxi Xu. 2026. Translation Analytics for Freelancers: II. Benchmarking Local LLMs for Confidential Translation Workflows. In *Proceedings of EAMT 2026*, forthcoming.
-
-Each subdirectory there contains two files:
-* `1143_en-{de,ru,ja,zh}_aem.xlsx` — Document-level COMET, BLEU, chrF2, and TER scores along with charts and some Excel calculations for 12 translation outputs (9 local LLMs + 3 baselines) for the corresponding language pair.
-* `1143_en-{de,ru,ja,zh}_outputs-cometscores.xlsx` — All translation outputs aligned at the segment level along with their sentence-level COMET-22 scores and Excel calculations of across-system averages, variances, and standard deviations for 1,143 sentences.
-
-These are intended  both as examples and as templates: feel free to replace the data with your own and the formulas remain valid.
-
-`worked_examples/300_en-{de,ru,ja,zh}` are reserved for the MATEO outputs for our evaluation sets. These outputs will be provided shortly before the tutorial as a back-up.
+## COMET-human-correlations
+`COMET-human-correlations` contains three additional excel workbooks calculating sentence-level correlations between COMET and human evaluation scores for about 12 outputs x 100 sentences in en-{de,ru,zh}. We will do over them if time permits.
 
 ---
 
@@ -199,7 +189,7 @@ papers:
 
 ## License
 
-- **Tutuorial materials** are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), for non-commercial/academic use only, with attribution.
+- **Tutorial materials** are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), for non-commercial/academic use only, with attribution.
 - **Evaluation data**: derived from the Reeve Foundation Trilingual /
   Multilingual Corpus, used with permission for research and educational
   purposes. Please consult the per-pair `README.md` files for specific
