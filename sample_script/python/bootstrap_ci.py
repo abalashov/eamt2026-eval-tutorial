@@ -21,13 +21,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-
-# Resolve the Excel file relative to this script's location so it works the
-# same whether the script is launched from IDLE, a terminal, or a double-click.
-# (IDLE's working directory is often NOT the script's folder.)
-SCRIPT_DIR = Path(__file__).resolve().parent
-XLSX_PATH = SCRIPT_DIR / "sentence_level_comet.xlsx"
-
+XLSX_PATH = Path.cwd() / "sentence_level_comet.xlsx"
 
 def bootstrap_ci(scores: np.ndarray, n_resamples: int = 1000,
                  alpha: float = 0.05, rng: np.random.Generator | None = None
